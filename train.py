@@ -35,7 +35,7 @@ cfg.SOLVER.MAX_ITER = 1501
 cfg.SOLVER.STEPS = (1000, 1500)
 cfg.SOLVER.GAMMA = 0.05
 cfg.MODEL.ROI_HEADS.BATCH_SIZE_PER_IMAGE = 64 # batch size per image
-cfg.MODEL.ROI_HEADS.NUM_CLASSES = 2 #  your number of classes (Number of foreground classes)
+cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1 #  your number of classes (Number of foreground classes)
 cfg.TEST.EVAL_PERIOD = 500
 
 os.makedirs(cfg.OUTPUT_DIR, exist_ok=True)
